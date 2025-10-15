@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+   <!--font awesome cdn link--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<!-- Header section starts -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="img/logo.png">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Startseite</a>
+        <a href="#About">über uns</a>
+        <a href="#menu">Menü</a>
+        <a href="#products">Produkte</a>
+        <a href="#review">Rezension</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search btn" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 1</h3>
+                <div class="price">9.99€</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 2</h3>
+                <div class="price">4.99€</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+
+</header>
+
+<!-- Header section ends -->
+
+<!-- home section starts-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Ein frisch zubereiteter Kaffee am Morgen</h3>
+        <p>sorgt für einen optimalen Start in den Arbeitstag.</p>
+        <a href="#" class="btn">Hol dir jetzt eines!</a>
+    </div>
+
+</section>
+
+<!--home section ends-->
+
+<!--about section starts-->
+
+<section class="About" id="About">
+
+    <h1 class="heading"><span>Über</span> uns </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="img/about-img.jpg" width="55%" height="80%">
+        </div>
+
+        <div class="content">
+            <h3>Was macht unseren Kaffee so besonders?</h3>
+                <p>Unser Kaffee ist besonders, weil er mit Sorgfalt und Leidenschaft 
+                 hergestellt wird. Wir wählen nur die besten Bohnen aus nachhaltigem Anbau, 
+                die von Hand geerntet und schonend geröstet werden, um das volle Aroma 
+                zu entfalten.</p>
+                <p>Jede Tasse spiegelt unsere Hingabe wider, höchste Qualität und 
+                einzigartigen Geschmack zu liefern. Von der Bohne bis zur Tasse 
+                unser Kaffee steht für Genuss, der alle Sinne anspricht.</p>
+                <a href="#" class="btn">Mehr erfahren</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--about section ends -->
+
+<!--Menu section starts -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading">Unser <span>Menü</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/menu-1.jpg">
+            <h3>Flat White</h3>
+            <div class="price">2.00€ <span>3.99€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-2.jpg">
+            <h3>Espresso</h3>
+            <div class="price">1.50€ <span>2.99€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-3.jpg">
+            <h3>Coffee Spezial</h3>
+            <div class="price">3.00€ <span>4.00€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-4.jpg">
+            <h3>Kaffee Crème</h3>
+            <div class="price">2.00€ <span>3.50€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-5.jpg">
+            <h3>affogato</h3>
+            <div class="price">1.00€ <span>2.50€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-6.jpg">
+            <h3>coffee France</h3>
+            <div class="price">2.00€ <span>3.50€</span></div>
+            <a href="#" class="btn">Zum Warenkorb hinzufügen</a>
+        </div>
+    </div>
+
+
+</section>
+
+<!--Menu section ends -->
+
+<!--Section Product starts -->
+
+<section class="products" id="products">
+
+    <h1 class="heading">Unsere <span>Produkte</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-1.png" alt="Produkt 1 - Frischer Kaffee">
+
+            </div>
+            <div class="content">
+                <h3>L <br> frischer Kaffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">4.99€ <span>6.00€</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>M <br> frischer Kaffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">3.99€ <span>5.00€</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>3x <br> Frische Kaffeepackungen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">7.00€ <span>10.99€</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Section Product ends -->
+
+<!--review section starts-->
+
+<section class="review" id="review">
+
+    <h1 class="heading">Kunden <span>bewertungen</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <p>Toller Coffee Shop! Der Coffee Spezial war 
+                perfekt und das Personal super freundlich. Immer wieder gerne!</p>
+                <img src="img/pic-1.jpg" class="user" alt="">
+                <h3>Daniel Leo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+        </div>
+        <div class="box">
+            <p>Schöne Atmosphäre, der Kaffee ist ausgezeichnet und 
+                die Auswahl an Kaffees ein Traum. Mein neuer Lieblingsladen</p>
+                <img src="img/pic-2.jpg" class="user" alt="">
+                <h3>Julia Marc</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+        </div>
+        <div class="box">
+            <p>Schneller Service und richtig guter Kaffee! 
+                Könnte mehr Sitzplätze geben, aber ansonsten top!
+            </p>
+                <img src="img/pic-3.jpg" class="user" alt="">
+                <h3>Marcel Dyon</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+        </div>
+    </div>
+
+</section>
+
+<!--review section ends-->
+
+<!--Kontakt section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>kontaktiere </span> uns</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40330.426904649146!2d6.938827644382713!3d50.
+        819091922184185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf
+        21ee02188153%3A0x1c2760ffab26a5c0!2s50389%20Wesseling!5e0!3m2!1sde!2sde!4v1735656897115!5m2!1sde!
+        2sde" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>Kontaktieren Sie uns</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="Nummer" placeholder="Nummer">
+            </div>
+            <input type="einreichen" value="Jetzt kontaktieren" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!--Kontakt section ends -->
+<!--Blogs Sections Starts-->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">unsere <span>Blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="img/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Programmier Kaffee</a>
+                <span>für Entwickler und Kreative</span>
+                <p>Willkommen in unserer CoffeeLounge – dem ultimativen Treffpunkt für Programmierer und Entwickler! Hier verschmilzt kreatives Denken mit der Energie einer perfekt gebrühten Tasse Kaffee. Egal, ob du an deinem nächsten Projekt tüftelst, mit deinem Team Ideen austauschst oder einfach mal eine Pause vom Debuggen brauchst – in unserem Café findest du alles, was du brauchst, um fokussiert und inspiriert zu bleiben.</p>
+                <p>Mit schnellem WLAN, bequemen Sitzplätzen und hervorragendem Kaffee versorgen wir dich mit allem, was du für produktive Coding-Sessions und entspannte Auszeiten brauchst. Denn wir wissen: Guter Code braucht guten Kaffee.</p>
+                <a href="#" class="btn">mehr lesen</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="img/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Business Kaffee</a>
+                <span>für Geschäftsleute</span>
+                <p>Ob zwischen Meetings, beim Networking oder einfach für eine kurze Auszeit – unser Coffee Shop bietet den idealen Ort für alle, die eine ruhige Atmosphäre und erstklassigen Kaffee suchen. Besonders Berufspendler wie Manager, Berater oder Anwälte schätzen bei uns die Mischung aus stilvollem Ambiente und exzellentem Service. Gönnen Sie sich eine wohlverdiente Pause, um mit neuer Energie in Ihren nächsten Termin zu starten.</p>
+                <a href="#" class="btn">mehr lesen</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Kaffee To-GO</a>
+                <span>für Freelancer und Kreative </span>
+                <p>In unserer schnelllebigen Welt wird Flexibilität großgeschrieben – und genau deshalb lieben es unsere Gäste, ihren Kaffee To-Go mitzunehmen oder sich bei uns mit ihrem Laptop niederzulassen. Ob Sie als Remote-Arbeiter nach einem bequemen Arbeitsplatz suchen oder als Student Ihre nächste Präsentation vorbereiten: Unser Coffee Shop bietet die perfekte Kombination aus Genuss und Produktivität.</p>
+                <a href="#" class="btn">mehr lesen</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Bolgs Sections Ends-->
+
+<!-- footer section Starts -->
+
+<section class="footer">
+
+    <div class="shar">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menü</a>
+        <a href="#">Produkte</a>
+        <a href="#">Rezension</a>
+        <a href="#">Kontakts</a>
+        <a href="#">Blogs</a>
+    </div>
+
+    <div class="credit">Erstellt von <span>Remon-MA</span>!</div>
+
+</section>
+
+ <!--fotter Section Ends -->
+
+
+
+
+
+
+
+
+
+<!-- Costom js fle link -->
+ <script src="script.js"></script>
+
+</body>
+</html>
